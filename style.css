@@ -1,0 +1,70 @@
+body, div, h1, h2, h3, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Suisse", sans-serif;
+    background-color: #313131;
+    width: 600px;
+    margin: auto;
+    color: white;
+}
+
+.header {
+    margin: 20px auto;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    width: 250px;
+    margin-right: 200px;
+}
+
+.logo-text {
+    margin: auto 0;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.button {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button-text {
+    margin: auto;
+    font-size: 16px;
+}
+
+.advise {
+    margin-top: 30%;
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.phrase {
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
